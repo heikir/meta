@@ -26,7 +26,7 @@ const Title = styled.h1`
   text-decoration: none;
 
   a {
-    color: ${({ theme }) => theme.colors.secondary};
+    color: "#0070f3";
     text-decoration: none;
     &:hover,
     :focus,
