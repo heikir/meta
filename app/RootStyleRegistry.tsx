@@ -6,7 +6,7 @@ import { useServerInsertedHTML } from "next/navigation";
 export default function RootStyleRegistry({
   children,
 }: {
-  children: JSX.Element;
+  children: React.ReactNode;
 }) {
   const [StyledComponentsRegistry, styledComponentsFlushEffect] =
     useStyledComponentsRegistry();

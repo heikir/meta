@@ -1,16 +1,8 @@
 import RootStyleRegistry from "./RootStyleRegistry";
-import { ThemeProvider, DefaultTheme } from "styled-components";
 // These styles apply to every route in the application
 import "./global.css";
 
-const theme: DefaultTheme = {
-  colors: {
-    primary: "#111",
-    secondary: "#0070f3",
-  },
-};
-
-export default function RootLayout({ children }: { children: JSX.Element }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <head>
